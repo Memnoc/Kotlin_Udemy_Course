@@ -1,4 +1,4 @@
-package academy.academy.learnprogramming.challenges
+package com.smartdroidesign.lessons.challenges
 
 fun main(args: Array<String>) {
 
@@ -18,13 +18,13 @@ fun main(args: Array<String>) {
     // 3. Declare an  array of type non-nullable Short. Make it size 5,
     // and assign the values 1,2,3,4 and 5.
 
-    val shortArray = shortArrayOf(1, 2, 3, 4, 5) // short way
-    val shortArray2: Array<Short> = arrayOf(1, 2, 3, 4, 5) // long way
+    val shortArray = shortArrayOf(1,2,3,4,5) // short way
+    val shortArray2: Array<Short> = arrayOf(1,2,3,4,5) // long way
 
     // 4. Now declare an array of nullable Ints and initialize it with the values
     // 5, 10, 20, 30, 40, 45, 50, etc, all the way up to 200
 
-    val intArray = Array<Int?>(40) { i -> (i + 1) * 5 }
+    val intArray = Array<Int?>(40) { i -> (i + 1) * 5}
     for (number in intArray) {
         println(number)
     }
@@ -47,7 +47,7 @@ fun main(args: Array<String>) {
     // 7. Use the let function to a) lowercase the string and then
     // b) replace "am" with "am not" in the result
 
-    x?.let { println(it.toLowerCase().replace("am", "am not")) }
+    x?.let { println( it.toLowerCase() .replace("am", "am not"))}
 
     // 8. You're really confident that the variable myNonNullVariable cannot contain null
     // Change the following code to assert then myNonNullVariable is not null
@@ -56,5 +56,6 @@ fun main(args: Array<String>) {
     val myNonNullVariable: Int? = null
     myNonNullVariable!!.toDouble()
     println(myNonNullVariable)
+
 
 }

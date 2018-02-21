@@ -1,4 +1,4 @@
-package academy.learnprogramming.declarations
+package com.smartdroidesign.lessons.declarations
 
 typealias EmployeeSet = Set<Employee>
 

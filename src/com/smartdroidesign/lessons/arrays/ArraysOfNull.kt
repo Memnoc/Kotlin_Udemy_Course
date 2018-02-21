@@ -1,4 +1,4 @@
-package academy.academy.learnprogramming.arrays
+package com.smartdroidesign.lessons.arrays
 
 fun main(args: Array<String>) {
 
@@ -8,4 +8,5 @@ fun main(args: Array<String>) {
     }
 
     println(nullableInts[3].toString())
+
 }
