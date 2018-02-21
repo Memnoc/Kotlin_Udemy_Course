@@ -1,3 +1,4 @@
+package academy.learnprogramming.declarations
 
 typealias EmployeeSet = Set<Employee>
 
