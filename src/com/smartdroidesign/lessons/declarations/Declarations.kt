@@ -77,6 +77,6 @@ fun main(args: Array<String>) {
 class Employee(var name: String, val id: Int){
 
     override fun toString(): String {
-        return "Employee(name=$name, id=$id)" // String template
+        return "JavaEmployee(name=$name, id=$id)" // String template
     }
 }
